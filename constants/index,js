@@ -1,0 +1,24 @@
+const hewan_schema = {
+    nama: {
+        type: "string",
+        required: true
+    },
+    jenis: {
+        type: "string",
+        required: true
+    },
+    ras: {
+        type: "string",
+        required: true
+    },
+    karakteristik: {
+        type: "string",
+        required: true
+    },
+    kesayangan: {
+        type: "boolean"
+    }
+}
+module.exports = {
+    hewan_schema
+}
